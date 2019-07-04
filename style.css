@@ -1,4 +1,4 @@
-body{margin:opx;color;:#76214B}
+body{margin:0px;color:#76214B; margin-top: 80px;}
 #fixed{
 	     position: fixed ;
 	     left: 0px;
@@ -10,7 +10,7 @@ body{margin:opx;color;:#76214B}
 	     line-height: 50px;
          font-size: 21px;
          color: white;
-         border-top: 1px solid#76214B;
+         border-top: 1px solid #76214B;
 
 }
 #text{
