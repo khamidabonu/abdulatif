@@ -1,9 +1,6 @@
-body{
-	background: black url(fon3.jpg) no-repeat;
-}
 p{
 	width: 500px;
 	text-align: justify;
 	font-weight: bold;
 }
-h1,p{color: white;}
+h1,p{color: blue;}
