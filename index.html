@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Задание по HTML и CSS</title>
-	<link rel="stylesheet" href="https://github.com/khamidabonu/abdulatif/blob/master/style.css">
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
 </head>
 <body>
-	<h1>Луна</h1>
-	<p>Луна́ — естественный спутник Земли. Самый близкий к Солнцу спутник планеты, так как у ближайших к Солнцу планет, Меркурия и Венеры, спутников нет. Второй по яркости[комм. 1] объект на земном небосводе после Солнца и пятый по величине естественный спутник планеты Солнечной системы. Среднее расстояние между центрами Земли и Луны — 384 467 км (0,002 57 а. е., ~ 30 диаметров Земли).
 
-Видимая звёздная величина полной Луны на земном небе — −12,71m[5]. Освещённость, создаваемая полной Луной возле поверхности Земли при ясной погоде, составляет 0,25 — 1 лк.
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
 
-Луна является единственным внеземным астрономическим объектом, на котором побывал человек.</p>
+<div></div>
+
 </body>
 </html>
