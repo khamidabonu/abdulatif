@@ -1,42 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style> 
-div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="lesson15.css">
 </head>
-<body>
+<body bgcolor ="#E8DAEF">
+  <p class="top1">Программист сегодня — одна из самых востребованных и распространенных профессий.Профессия Программиста относится к профессиям исключительно умственного (творческого или интеллектуального труда). В процессе работы важна деятельность сенсорных систем, внимания, памяти, активизация мышления и эмоциональной сферы. Программисты отличаются эрудированностью, любознательностью, рациональностью, аналитическим складом ума.Программист – особенно ценный специалист  в условиях развития информационных технологий. Учиться на программиста не только интересно, но и перспективно, так как в дальнейшем он сможет найти применение своим профессиональным навыкам в научно-исследовательских институтах, вычислительных центрах, IT-компаниях, web-студиях, учебных заведениях. Уровень заработной платы опытных специалистов достаточно высокий, он будет зависеть от места и эффективности их работы. Программисты также могут стать владельцами собственного бизнеса и предлагать покупателям новые проекты и технические разработки.</p>
+  <div class="block_with_table">
+  <table>
+    <tr>
+      <td><p style="color: white">Адил</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Адил.jpg" alt="Рисунок1"></td>
+      <td><p style="color: white">Амир</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Амир.jpg" alt="Рисунок2"></td>
+      <td><p style="color: white">Азат</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Азат.jpg" alt="Рисунок3"></td>
+      <td><p style="color: white">Хамидабону</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Хамидабону.jpg" alt="Рисунок4"></td>
+      <td><p style="color: white">Самира</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Самира.jpg" alt="Рисунок5"></td>
+    </tr>
+    <tr>
+      <td><p>Байкут</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Байкут.jpg" alt="Рисунок6"></td>
+      <td><p>Саша</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Саша.jpg" alt="Рисунок7"></td>
+      <td><p>Даир</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Даир.jpg" alt="Рисунок8"></td>
+    </tr>
+    <tr>
+      <td><p>Бека</p><img class="block_with_image" src="https://cdn.pixabay.com/photo/2016/11/29/11/52/coder-1869306_960_720.jpg" alt="Рисунок9"></td>
+      <td><p>Атай</p><img class="block_with_image" src="C:\Users\Пользователь\Downloads\Атай.jpg" alt="Рисунок10"></td>
+    </tr>
+  </table>
+  </div>
 
-<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+  <div class="block_with_ol">
+    <ol>
+      Навыки для программистов:
+      <li>Усидчивость</li>
+      <li>Логика</li>
+      <li>Сообразительность</li>
+      <li>Внимательность</li>
+      <li>Эрудиция</li>
+      
+    </ol>
+  </div>
+  <div class="block_with_ul">
+    <ul>
+      Наши ребята научились:
+      <li>Создавать сайты</li>
+      <li>Основам HTML</li>
+      <li>Основам CSS</li>
+      <li>Работать на Sublime Text 3</li>
+      <li>Создавать андроид приложения</li>
+    </ul>
+  </div>
 
-<div></div>
-
+  <div class="block_empty">
+    <tr>
+      <td>.</td>
+    </tr>
+  </div>
+  <div class="block_with_form">
+    <form>
+      <table>
+        <tr>
+          <td>Ваше имя...</td>
+          <td><input type="text" value="Имя..." name="name" /></td>
+        </tr>
+        
+        <tr>
+            <td>Выберете ваш пол</td>
+            <td>                        
+              <select>                            
+                <option>Мужской</option>
+                <option>Женский</option>                        
+              </select>                    
+            </td>                
+        </tr>
+        <tr>
+            <td colspan="2">Укажите ваш примерный возраст:</td>
+         </tr>                
+         <tr>                    
+           <td colspan="2">
+           <input type="radio" value="radiobutton" name="radiobutton">                     10-20                        
+            <input type="radio" value="radiobutton" name="radiobutton">
+           20-30                        
+                          
+           </td>                
+         </tr>                
+         <tr>                    
+           <td>Загрузите свое фото</td>                    
+           <td><input type="file" /></td>                
+         </tr>                
+         <tr>                    
+           <td>Введите свой логин</td>                    
+           <td><input type="text" value="Логин..." name="login" /></td>
+         </tr>                
+         <tr>                    
+           <td>Введите пароль</td>                    
+           <td><input type="password" value="" name="password" /></td>                
+         </tr>                
+         <tr>                    
+           <td>Дополнительная информация о вас</td>                    
+           <td><textarea></textarea></td>                
+         </tr>                
+         <tr>                    
+           <td>Рассылка новостей</td>                    
+           <td><input type="checkbox"/></td>                
+         </tr>                
+         <tr>                    
+           <td>Лицензионное соглашение</td>                    
+           <td><input type="checkbox" /></td>                
+         </tr>                
+         <tr>                    
+           <td><input type="reset" value="Сбросить" /></td>                    
+           <td><input type="submit" value="Отправить" /></td>                
+         </tr>
+      </table>
+    </form>
+  </div>
 </body>
 </html>
